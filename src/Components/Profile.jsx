@@ -5,11 +5,13 @@ const Profile = () => {
   return (
     <div>
         <h1>Profile Page</h1>
-        <p>Name: </p>
-        <p>Age: </p>
-        <p>Email: </p>
+        <p>Name: {user.name} </p>
+        <p>Age: {user.age} </p>
+        <p>Email: {user.email} </p>
     </div>
   )
 }
+
+
 
 export default Profile
